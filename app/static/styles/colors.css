@@ -1,0 +1,11 @@
+:root {
+    --jn-primary-color: #0f335f;
+    --jn-secondary-color: #0c2b50;
+    --jn-hiperlink-color: #0f335f;
+    --jn-hiperlink-hover-color: #0c2b50;
+    --jn-contrast-primary-color: #ffffff;
+    --jn-background-color: #FFF;
+    --jn-base-text-color: #333;
+    --jn-title-color: #111;
+    --jn-aux-text-color: #555;
+}

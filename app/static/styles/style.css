@@ -1,0 +1,103 @@
+@import 'colors.css';
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+
+    background-color: var(--jn-background-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 5px 10px 10px;
+
+    color: var(--jn-contrast-primary-color);
+    background-color: var(--jn-primary-color);
+    font-weight: 100;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.panel {
+    width: 47%;
+    height: 90%;
+    margin: 0px 1%;
+    overflow-y: auto;
+    scrollbar-width: auto;
+    scrollbar-color: var(--jn-primary-color) transparent;
+
+    background-color: white;
+}
+
+.panel h2 {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    margin: 0 10px 10px 0;
+    /* margin-right: 10px;
+    margin-bottom: 10px; */
+    padding: 5px 10px 10px;
+
+    color: var(--jn-contrast-primary-color);
+    background-color: var(--jn-secondary-color);
+    font-weight: 600;
+}
+
+.news {
+    position: relative;
+    margin-right: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-left: 3px solid #aaa;
+}
+
+.news:hover {
+    border-left: 3px solid var(--jn-secondary-color);
+}
+
+.news .button {
+    border: none;
+    cursor: pointer;
+}
+
+.news .button.add {
+    position: absolute;
+    top: -5px;
+    right: 40px;
+    background: none;
+}
+
+.news .button.button.add svg {
+    width: 24px;
+    height: 24px;
+    color: #aaa;
+}
+
+.news .button.button.add svg:hover {
+    color: var(--jn-secondary-color);
+}
+
+.news .button.clipboard {
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    background: none;
+}
+
+.news .button.clipboard svg {
+    width: 24px;
+    height: 24px;
+    color: #aaa;
+}
+
+.news .button.clipboard svg:hover {
+    color: var(--jn-secondary-color);
+}

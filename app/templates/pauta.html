@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias do Dia</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/colors.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Notícias do Dia</h1>
+    </div>
+    <div class="container">
+        <div id="left-panel" class="panel">
+            <h2>Fora de Pauta</h2>
+
+            <div class="news">
+                <h3 class="titulo">Titulo da Notícia Titulo da Notícia Titulo da Notícia Titulo da Notícia</h3>
+                <p class="resumo">Resumo da Notícia</p>
+                <p class="link"><a href="http://example.com/">http://example.com</a></p>
+                <p class="Fonte">Fonte</p>
+                <p class="publicacao">01-01-2020</p>
+
+                <button class="button add"><i data-lucide="circle-plus"></i></button>
+                <button class="button clipboard"><i data-lucide="clipboard"></i></button>
+            </div>
+
+            <div class="news">
+                <h3 class="titulo">Titulo da Notícia Titulo da Notícia Titulo da Notícia Titulo da Notícia</h3>
+                <p class="resumo">Resumo da Notícia</p>
+                <p class="link"><a href="http://example.com/">http://example.com</a></p>
+                <p class="Fonte">Fonte</p>
+                <p class="publicacao">01-01-2020</p>
+
+                <button class="button add"><i data-lucide="circle-plus"></i></button>
+                <button class="button clipboard"><i data-lucide="clipboard"></i></button>
+            </div>
+
+            <div class="news">
+                <h3 class="titulo">Titulo da Notícia Titulo da Notícia Titulo da Notícia Titulo da Notícia</h3>
+                <p class="resumo">Resumo da Notícia</p>
+                <p class="link"><a href="http://example.com/">http://example.com</a></p>
+                <p class="Fonte">Fonte</p>
+                <p class="publicacao">01-01-2020</p>
+
+                <button class="button add"><i data-lucide="circle-plus"></i></button>
+                <button class="button clipboard"><i data-lucide="clipboard"></i></button>
+            </div>
+        </div>
+        <div id="right-panel" class="panel">
+            <h2>Dentro de Pauta</h2>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
